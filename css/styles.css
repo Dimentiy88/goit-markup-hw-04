@@ -415,6 +415,7 @@ background: #FFFFFF;
     display: flex;
     align-items: baseline;
     gap: 120px;
+    
   }
 
   .text-social {
@@ -484,7 +485,7 @@ background: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #AFB1B8;
+    color: var(--color-light-slate);
     
   }
   .customers-icon {
