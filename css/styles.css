@@ -166,7 +166,6 @@ img {
  } 
  .button-btn {
     background-color: var(--color-cloud);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -225,7 +224,6 @@ img {
 }
 
 .fact-descr {
-    margin-bottom: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -248,6 +246,9 @@ img {
     padding: 120px 0;
 
 }
+.fact-descr-team {
+    margin-bottom: 8px;
+}
 
 .team-item{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -260,13 +261,17 @@ background: #FFFFFF;
     justify-content: center;
     gap: 24px;
 }
+.socials-item {
+    width: 40px;
+    height: 40px;
+}
 
 .socials-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     background-color: var(--color-iris) ;
     border-radius: 50%;
 }
@@ -479,7 +484,13 @@ background: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-light-slate);
+    color: #AFB1B8;
+    
+  }
+  .customers-icon {
+    fill: currentColor;
+
+
   }
   
 .customers-card:hover,
