@@ -415,8 +415,10 @@ background: #FFFFFF;
   .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 120px;
     
+  }
+  .section-footer{
+    margin-right: 120px;
   }
 
   .text-social {
